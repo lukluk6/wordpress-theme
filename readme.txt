@@ -1,3 +1,5 @@
+MY CHANGE
+
 === wordpress-theme ===
 
 Contributors: automattic
