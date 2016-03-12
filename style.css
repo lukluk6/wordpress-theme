@@ -54,7 +54,7 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: 10px;
 }
 
 article,
@@ -924,3 +924,102 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*Theme*/
+
+/*header*/
+#masthead{
+	max-width:960px;
+	width:90%;
+	border-style: dotted;
+	background-color: #222f66;
+	margin:1%;
+	padding:2%;
+}
+
+.site-title {
+	text-align: center;
+}
+
+.site-description{
+	color:#fff000;
+	text-align: center;
+	padding:0;
+}
+
+.main-navigation a{
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#site-navigation {
+    background-color: white;
+    }
+
+/*body*/
+body{
+	background-color: #888888;
+}
+
+
+/*content*/
+
+#content {
+    max-width: 960px;
+    width: 90%;
+    background: #fff055;
+    margin: 1%;
+    padding: 2%;
+    border-style: dotted;
+}
+
+.post {
+    background-color: white;
+    }
+
+/*widget*/
+#secondary {
+    width: 35%;
+    padding: 2%;
+    margin: 1%;
+    background-color: #0ff999;
+    }
+
+.widget{
+	background-color:#999;
+}
+
+.widget-title {
+    text-align: center;
+    background: white;
+}
+
+.widget li {
+    list-style: none;
+    }
+
+.widget ul a, .widget ul {
+    color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+/*footer*/
+.site-info {
+    background: black;
+    max-width: 960%;
+    width: 90%;
+    margin: 1%;
+    padding: 1%;
+    }
+
+
+
+
+
+
+
+
+
