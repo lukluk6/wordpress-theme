@@ -1,4 +1,3 @@
-MY CHANGE
 
 === wordpress-theme ===
 
