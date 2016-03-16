@@ -1,9 +1,9 @@
 <?php
 /* Add a new menu item */
-add_menu_page( $page_titile, $menu_title, $capability, $menu_slug, $function, $icon_url, $position);
+add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position);
 
 /* Add a sub-menu item */
-add_submenu_page ($parent_slug, $page_titile, $menu_title, $capability, $menu_slug, $function);
+add_submenu_page ($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
 
 /* Add options page as a sub-menu item to an existing menu item */
 function cd_add_submenu(){
@@ -22,9 +22,8 @@ function cd_settings_init(){
 		'theme_options' //page(matches menu_slug set in add_submenu_page)
 		);
 function cd_options_page_section_callback(){
-	echo'A description and detail about the section.'
+	echo'A description and detail about the section.';
 
-	
-;
+}
 ?>
 
