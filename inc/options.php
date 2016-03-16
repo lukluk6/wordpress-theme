@@ -25,6 +25,6 @@ function cd_options_page_section_callback(){
 	echo'A description and detail about the section.'
 
 	
-}
+;
 ?>
 
