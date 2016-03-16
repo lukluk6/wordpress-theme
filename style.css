@@ -47,6 +47,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+
+/*FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Handlee|Reenie+Beanie|Rochester);
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -63,13 +67,15 @@ details,
 figcaption,
 figure,
 footer,
-header,
-main,
 menu,
 nav,
 section,
 summary {
 	display: block;
+}
+
+header {
+	font-family: 'Reenie Beanie', cursive;
 }
 
 audio,
@@ -113,8 +119,9 @@ dfn {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 4em;
 	margin: 0.67em 0;
+	font-color: white;
 }
 
 mark {
@@ -531,10 +538,11 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	color: royalblue;
+	text-decoration: none; /*remove underline for links*/
 }
 
 a:visited {
-	color: purple;
+	color: none; /*remove color for visited links */
 }
 
 a:hover,
@@ -931,8 +939,8 @@ object {
 #masthead{
 	max-width:960px;
 	width:90%;
-	border-style: dotted;
-	background-color: #222f66;
+	border-style: none;
+	background-color: ;
 	margin:1%;
 	padding:2%;
 }
@@ -941,10 +949,19 @@ object {
 	text-align: center;
 }
 
+h1.site-title a{
+	color:black;
+	}
+
 .site-description{
 	color:#fff000;
 	text-align: center;
 	padding:0;
+}
+
+p.site-description {
+    color: blue;
+    font-size: 3em;
 }
 
 .main-navigation a{
@@ -958,7 +975,7 @@ object {
 
 /*body*/
 body{
-	background-color: #888888;
+	background-color: #fff;
 }
 
 
