@@ -25,5 +25,56 @@ function cd_options_page_section_callback(){
 	echo'A description and detail about the section.';
 
 }
-?>
+
+	add_settings_field( 
+		'cd_text_field', 
+		'Enter your text', 
+		'cd_text_field_render', 
+		'theme_options', 
+		'cd_options_page_section' 
+	);
+
+	add_settings_field( 
+		'cd_checkbox_field', 
+		'Check your preference', 
+		'cd_checkbox_field_render', 
+		'theme_options', 
+		'cd_options_page_section'  
+	);
+
+	add_settings_field( 
+		'cd_radio_field', 
+		'Choose an option', 
+		'cd_radio_field_render', 
+		'theme_options', 
+		'cd_options_page_section'  
+	);
+	
+	add_settings_field( 
+		'cd_textarea_field', 
+		'Enter content in the textarea', 
+		'cd_textarea_field_render', 
+		'theme_options', 
+		'cd_options_page_section'  
+	);
+	
+	add_settings_field( 
+		'cd_select_field', 
+		'Choose from the dropdown', 
+		'cd_select_field_render', 
+		'theme_options', 
+		'cd_options_page_section'  
+	);
+
+	function cd_text_field_render() { 
+		$options = get_option( 'cd_options_settings' );
+		?>
+		<input type="text" name="cd_options_settings[cd_text_field]" value="<?php if (isset($options['cd_text_field'])) echo $options['cd_text_field']; ?>" />
+		<?php
+	}
+	
+	function cd_checkbox_field_render() { 
+		$options = get_option( 'cd_options_settings' );
+	?>
+
 
