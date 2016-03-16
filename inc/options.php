@@ -68,9 +68,7 @@ function cd_options_page_section_callback(){
 		<?php
 	}
 	
-	function cd_checkbox_field_render() { 
-		$options = get_option( 'cd_options_settings' );
-	?>
+	
 	<input type="text" name="cd_options_settings[cd_text_field]" value="<?php if (isset($options['cd_text_field'])) echo $options['cd_text_field']; ?>" />
 		<?php
 	}
