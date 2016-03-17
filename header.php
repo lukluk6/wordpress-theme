@@ -27,6 +27,8 @@
 
 <!--trying out the silder-->
 <link rel="stylesheet" herf="<?=bloginfo('template_url');?> /owl.carousel/owl.carousel.css"/>
+<link rel="stylesheet" herf="<?=bloginfo('template_url');?> /owl.carousel/owl.theme.css"/>
+<script src="<?=bloginfo('template_url');?> /js/jquery-1.12.1.min.js" type = "text/javascript"></script>
 <script src="<?=bloginfo('template_url');?> /owl.carousel/owl.carousel.min.js" type = "text/javascript"></script>
 
 

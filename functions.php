@@ -175,3 +175,10 @@ add_filter( 'the_content_more_link', 'modify_read_more_link' );
 function modify_read_more_link() {
 	return '<a class="more-link" href="' . get_permalink() . '"> Click me for more &raquo; &raquo; &raquo; &raquo;</a>';
 }
+
+
+
+
+
+//slider
+add_image_size ('home-slider', 960,280, true);

@@ -14,13 +14,79 @@
 
 get_header(); ?>
 
+
+here for slider
+
+<?php
+$args = array(
+  'post_per_page'=>3 //display 3 pictures on the slider
+	);
+
+$the_query = new WP_Query($args);
+
+if($the_query->have_posts()):
+?>
+	
+	<div class="home_slider">
+
+<?php
+	 while($the_query->have_posts()): $the_query->the_post(); 
+?>
+ 
+
+	<div class="slider">
+	<!--<?=the_title()?>-->
+		<?php the_post_thumbnail('home-slider');  //it adds the thumbnail of the post to the silder area
+		?>
+	</div>
+ 
+
+ <script >
+ $(document).ready(function(){
+ 	$(".home_slider").owlCarousel({
+ 		navigation:ture,
+ 		slidespeed:300,
+ 		paginationSpeed:400,
+ 		singleItem:true
+ 	});
+ });
+
+ </script>
+
+
+<?php
+	endwhile;
+?>
+	 </div>
+<?php
+endif;	
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-
-			here for slider
-
-
 
 <!--grid
 		<?php if ( has_post_thumbnail() ) : ?>
