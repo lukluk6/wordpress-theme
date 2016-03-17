@@ -1012,7 +1012,7 @@ body{
 #content {
     max-width: 100%;
     width: 90%;
-    background: rgba(250, 254, 255, 0.5);
+    background: none;
     margin: 1%;
     padding: 2%;
     border-style: none;
@@ -1030,20 +1030,24 @@ body{
     width: 20%;
     padding: 2%;
     margin: 1%;
-    background-color: #ADD8E6;
+    background-color: rgba(250, 254, 255, 0.5);
     }
 
 .widget{
-	background-color:#999;
+	background-color: #ADD8E6;
+
 }
 
 .widget-title {
     text-align: center;
     background: white;
+    font-family: 'Amatic SC', cursive;
+
 }
 
 .widget li {
     list-style: none;
+    margin: 1.5px;
     }
 
 .widget ul a, .widget ul {
@@ -1051,12 +1055,13 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-family: Calibri;
 }
 
 
 /*footer*/
 .site-info {
-    background: rgba(0,0,999,0.3);
+    background: rgba(250, 254, 255, 0.5);
     max-width: 100%;
     width: 90%;
     margin: 1%;
