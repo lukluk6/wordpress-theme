@@ -18,6 +18,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
+			here for slider
+
+
+
+<!--grid
+		<?php if ( has_post_thumbnail() ) : ?>
+	    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+	        <?php the_post_thumbnail('medium'); ?>
+	    </a>
+		<?php endif; ?>
+-->
 
 		<?php if (is_home()) ?> <!--making changes to display post on home page-->
 
@@ -26,6 +37,7 @@ get_header(); ?>
 		$query = new WP_Query('category_name=HPP&showposts=5&orderby=date&paged='.$page_num);
 		?>
 		<!--put in cartergory name to display and order by date-->
+
 		
 		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
@@ -51,7 +63,7 @@ get_header(); ?>
  	<?php endwhile; 
  	wp_reset_postdata();
  	else : ?>
- 	<p> <?php _e( 'Sorry, there is no post matched this catergory.' ); ?></p>
+ 	<p> <?php _e( 'Sorry, there is no post matches this catergory.' ); ?></p>
  <?php endif; ?>
 
  <?php posts_nav_link('separator','Newer Post &raquo;','&laquo; Older Post'); //learned from https://codex.wordpress.org/Next_and_Previous_Links?>
