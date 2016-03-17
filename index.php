@@ -64,7 +64,18 @@ if($the_query->have_posts()):
 endif;	
 ?>
 
+<h2>About us </h2>
 
+	Yoyo’s Yoga and Fitness is a yoga studio based in Toronto, Canada. 
+	We are three girls who are passionate about practicing yoga and believe in living life in 
+	a balanced and healthy way. Found in 2016, our mission is to spread peace, 
+	health and joy through practicing yoga and eating clean. We serve our community 
+	by offering ways to seek and foster wellness by instructing many different forms of yoga, 
+	in addition to a juice and snack bar located in our studio to promote a clean diet. 
+	It is our vision to spread the importance for a balanced and healthy 
+	lifestyle by offering an exceptional experience to each one of the students that comes into 
+	Yoyo’s Yoga and Fitness. Feel free to come to our studio to learn not only about how yoga can 
+	help maintain a healthy body but also how eating clean can lead to a peaceful mind and spirit.
 
 
 

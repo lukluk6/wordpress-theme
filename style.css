@@ -1069,7 +1069,14 @@ body{
 
 /*content*/
 
+.menu-main-container {
+    float: center;
+    padding-left: 13%;
+}
 
+.menu-toggle {
+    padding-left: 90%;
+    }
 
 #content {
     max-width: 960px;
