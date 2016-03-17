@@ -1022,7 +1022,7 @@ body{
 /*content*/
 
 #content {
-    max-width: 100%;
+    max-width: 960px;
     width: 90%;
     background: none;
     margin: 1%;
