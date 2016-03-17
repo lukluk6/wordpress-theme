@@ -552,7 +552,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 a:focus {
@@ -617,14 +617,20 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+background-color: #f6fff5;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
+background-color: #f6fff5;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
+background-color: #f6fff5;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .main-navigation ul li:hover > ul,
