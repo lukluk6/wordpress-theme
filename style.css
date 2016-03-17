@@ -127,9 +127,9 @@ dfn {
 }
 
 h1 {
-	font-size: 6em;
+	font-size: 50px;
 	margin: 0.67em 0;
-	font-color: white;
+	font-family: 'Amatic SC', cursive;
 }
 
 mark {
@@ -953,7 +953,6 @@ object {
 	max-width:960px;
 	width:90%;
 	border-style: none;
-	background-color: ;
 	margin:1%;
 	padding:2%;
 }
@@ -965,6 +964,7 @@ object {
 
 h1.site-title a{
 	color:black;
+	font-size: 2em;
 	}
 
 .site-description{
@@ -978,6 +978,12 @@ p.site-description {
     font-size: 3em;
     color:#3399FF;
     margin:0;
+}
+
+p.site-title{
+	font-family: 'Reenie Beanie', cursive;
+	color: black;
+	font-size: 6em;
 }
 
 .main-navigation a{
