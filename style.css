@@ -1005,6 +1005,7 @@ object {
 	border-style: none;
 	margin:1%;
 	padding:2%;
+	border-style: none none double none;
 }
 
 .site-title {
