@@ -1,5 +1,5 @@
 <?php
-	
+//Add submenu page	
 function cd_add_submenu() {
 		add_submenu_page( 'themes.php', 'Customize Yourself', 'Theme Options', 'manage_options', 'theme_options', 'my_theme_options_page');
 		//Activate custom settings
@@ -47,6 +47,26 @@ register_setting( 'theme_options', 'cd_options_settings' );
 		<?php
 	}
 	
+	//Add Facebook Social Profile URL
+	
+	add_settings_field( 
+		'cd_facebook_url', //id
+		'Facebook Profile URL', //title
+		'display_facebook_element', //$callback
+		'theme_options', //page
+		'cd_options_page_section' //section
+	);
+	
+	register_setting("cd_options_page_section", "cd_facebook_url");
+	
+	function display_facebook_element() { 
+		$options = get_option( 'cd_facebook_url' );
+		?>
+		<input type="text" name="cd_facebook_url" id="cd_facebook_url" value="" <?php echo get_option('cd_facebook_url'); ?>" />
+		<?php
+	}
+	
+	
 	
 
 	//Choose between layouts
@@ -69,49 +89,12 @@ register_setting( 'theme_options', 'cd_options_settings' );
 	register_setting("cd_options_page_section", "cd_layout_options");
 	
 	
-	
 
-	add_settings_field( 
-		'cd_radio_field', 
-		'Choose an option', 
-		'cd_radio_field_render', 
-		'theme_options', 
-		'cd_options_page_section'  
-	);
-	
-	
-	add_settings_field( 
-		'cd_select_field', 
-		'Choose from the dropdown', 
-		'cd_select_field_render', 
-		'theme_options', 
-		'cd_options_page_section'  
-	);
-		
 		
 		
 	
 	
-	function cd_radio_field_render() { 
-		$options = get_option( 'cd_options_settings' );
-		?>
-		<input type="radio" name="cd_options_settings[cd_radio_field]" <?php if (isset($options['cd_radio_field'])) checked( $options['cd_radio_field'], 1 ); ?> value="1" /> <label>Option One</label><br />
-		<input type="radio" name="cd_options_settings[cd_radio_field]" <?php if (isset($options['cd_radio_field'])) checked( $options['cd_radio_field'], 2 ); ?> value="2" /> <label>Option Two</label><br />
-		<input type="radio" name="cd_options_settings[cd_radio_field]" <?php if (isset($options['cd_radio_field'])) checked( $options['cd_radio_field'], 3 ); ?> value="3" /> <label>Option Three</label>
-		<?php
-	}
-	
 
-
-	function cd_select_field_render() { 
-		$options = get_option( 'cd_options_settings' );
-		?>
-		<select name="cd_options_settings[cd_select_field]">
-			<option value="1" <?php if (isset($options['cd_select_field'])) selected( $options['cd_select_field'], 1 ); ?>>Option 1</option>
-			<option value="2" <?php if (isset($options['cd_select_field'])) selected( $options['cd_select_field'], 2 ); ?>>Option 2</option>
-		</select>
-	<?php
-	}
 	
 	function my_theme_options_page(){ 
 	?>
