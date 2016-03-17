@@ -19,11 +19,11 @@ get_header(); ?>
 
 <?php
 $args = array(
-  'post_per_page'=>1
+  'post_per_page'=>'1'
    //display 1 pictures on the slider
 	);
 
-$the_query = new WP_Query('showposts=1'.$args);
+$the_query = new WP_Query($args);//'showposts=1'.
 
 if($the_query->have_posts()):
 ?>
@@ -37,7 +37,8 @@ if($the_query->have_posts()):
 
 	<div class="slider">
 	<!--<?=the_title()?>-->
-		<?php the_post_thumbnail('home-slider');  //it adds the thumbnail of the post to the silder area
+		<?php the_post_thumbnail('home-slider'); 
+		 //it adds the thumbnail of the post to the silder area
 		?>
 	</div>
  
