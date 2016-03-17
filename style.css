@@ -998,11 +998,14 @@ body{
 	background-color: #fff;
 }
 
+#page .site {
+	max-width: 100%;
+}
 
 /*content*/
 
 #content {
-    max-width: 960px;
+    max-width: 100%;
     width: 90%;
     background: white;
     margin: 1%;
@@ -1018,7 +1021,8 @@ body{
 
 /*widget*/
 #secondary {
-    width: 35%;
+	float: right;
+    width: 20%;
     padding: 2%;
     margin: 1%;
     background-color: #ADD8E6;
@@ -1047,8 +1051,8 @@ body{
 
 /*footer*/
 .site-info {
-    background: black;
-    max-width: 960%;
+    background: #ADD8E6;
+    max-width: 100%;
     width: 90%;
     margin: 1%;
     padding: 1%;
