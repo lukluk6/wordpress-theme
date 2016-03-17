@@ -158,7 +158,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
  //post thumbnail
  add_theme_support( 'post-thumbnails' );
- set_post_thumbnail_size( 320, 480);//sizes of the image.
+ set_post_thumbnail_size( 500, 500);//sizes of the image.
 
  //add signature
 add_filter('the_content','add_signature');
