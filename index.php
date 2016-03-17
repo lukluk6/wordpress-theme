@@ -14,8 +14,15 @@
 
 get_header(); ?>
 
+
+<!--here is the welcoming phrase only on the home page-->
 <h2>Welcome to Yoyo's Yoga and Fitness!</h2>
-<!--here for slider-->
+
+
+
+<!--here for slide area
+	learned from https://www.youtube.com/watch?v=pZ21jWGxPTY
+-->
 
 <?php
 $args = array(
@@ -25,18 +32,18 @@ $args = array(
 
 $the_query = new WP_Query($args);//'showposts=1'. is not working
 
-if($the_query->have_posts()):
+if($the_query->have_posts()): //check if there is post
 ?>
 	
-	<div class="home_slider">
+	<div class="home_slider"> 
 
 <?php
-	 while($the_query->have_posts()): $the_query->the_post(); 
+	 while($the_query->have_posts()): $the_query->the_post(); //get the post
 ?>
  
 
 	<div class="slider">
-	<!--<?=the_title()?>-->
+	<!--<?=the_title()?> can put title there as well-->
 		<?php the_post_thumbnail('home-slider'); 
 		 //it adds the thumbnail of the post to the silder area
 		?>
@@ -50,7 +57,7 @@ if($the_query->have_posts()):
 endif;	
 ?>
 
-<h2>About Us </h2>
+<h2>About Us </h2> <!-- this will appear on the home page-->
 
 	Yoyo’s Yoga and Fitness is a yoga studio based in Toronto, Canada. 
 	We are three girls who are passionate about practicing yoga and believe in living life in 

@@ -180,5 +180,5 @@ function modify_read_more_link() {
 
 
 
-//slider
+//slider area picture size
 add_image_size ('home-slider', 960,280, true);
