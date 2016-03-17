@@ -38,7 +38,7 @@ function cd_settings_init() {
 		<?php
 	}
 	
-	register_setting( 'theme_options', 'cd_options_settings' );
+	register_setting("cd_options_page_section", "cd_twitter_url");
 
 	//Choose between layouts
 	add_settings_field( 
@@ -57,7 +57,7 @@ function cd_settings_init() {
 		<?php	
 	}
 	
-	register_setting( 'theme_options', 'cd_options_settings' );
+	register_setting("cd_options_page_section", "cd_layout_options");
 	
 	
 	
