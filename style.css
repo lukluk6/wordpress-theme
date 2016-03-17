@@ -1003,7 +1003,7 @@ object {
 	max-width:960px;
 	width:90%;
 	border-style: none;
-	margin:1%;
+	margin:0 auto;
 	padding:2%;
 	border-style: none none double none;
 }
@@ -1083,7 +1083,7 @@ body{
     max-width: 960px;
     width: 90%;
     background: none;
-    margin: 1%;
+    margin: 0 auto;
     padding: 2%;
     border-style: none;
 }
