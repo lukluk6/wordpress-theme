@@ -588,7 +588,11 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+<<<<<<< HEAD
 	font-family: 'Cabin Sketch', cursive;	
+=======
+
+>>>>>>> origin/master
 }
 
 .main-navigation ul ul {
@@ -951,6 +955,7 @@ object {
 
 .site-title {
 	text-align: center;
+	margin:0;
 }
 
 h1.site-title a{
@@ -966,17 +971,26 @@ h1.site-title a{
 p.site-description {
     color: #75a2f0;
     font-size: 3em;
+    color:#3399FF;
+    margin:0;
 }
 
 .main-navigation a{
 	padding: 15px;
 	text-transform: uppercase;
+<<<<<<< HEAD
 	color:black;
 	text-align: centre;
+=======
+	font-size: 150%;
+	color:#3399FF;
+	font-weight:bold;
+>>>>>>> origin/master
 }
 
 #site-navigation {
     background-color: white;
+    font-family: 'Cabin Sketch';
     }
 
 /*body*/
