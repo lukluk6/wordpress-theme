@@ -1,7 +1,7 @@
 <?php
 /* Add options page as a sub-menu item to an existing menu item */
 function cd_add_submenu(){
-	add_submenu_page('themes.php', 'Awesome Options Page', 'Theme Options','manage_options',
+	add_submenu_page('themes.php', 'Customize Yourself', 'Theme Options','manage_options',
 	'theme_options','my_theme_options_page');
 }
 add_action ('admin_menu','cd_add_submenu');
