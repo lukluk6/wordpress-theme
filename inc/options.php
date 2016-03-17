@@ -29,6 +29,19 @@ function display_theme_panel_fields()
     register_setting("section", "logo", "handle_logo_upload");
 }
 
+function my_theme_options_page(){ 
+		?>
+		<form action="options.php" method="post">
+			<h2>Customize Yourself</h2>
+			<?php
+			settings_fields( 'theme_options' );
+			do_settings_sections( 'theme_options' );
+			submit_button();
+			?>
+		</form>
+		<?php
+	}
+
 add_action( 'admin_init', 'cd_settings_init' );
 
 
