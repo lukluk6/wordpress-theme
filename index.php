@@ -32,7 +32,7 @@ get_header(); ?>
 
 		<div class="post">
  
-	 	<!-- Display the Title as link to the acturl Post -->
+	 	<!-- Display the Title as link to the Post -->
 	 	<h2><a href="<?php the_permalink() ?>" rel="bookmark" 
 	 	title="Permanent Link to <?php the_title_attribute(); ?>">
 

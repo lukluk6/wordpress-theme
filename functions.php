@@ -169,7 +169,7 @@ return $text;
 }
 
 
-// 'more' text for excerpts
+// the 'more' text for excerpts
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 
 function modify_read_more_link() {
