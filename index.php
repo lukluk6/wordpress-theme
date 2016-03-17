@@ -15,11 +15,11 @@
 get_header(); ?>
 
 
-here for slider
+<!--here for slider-->
 
 <?php
 $args = array(
-  'post_per_page'=>3 //display 3 pictures on the slider
+  'post_per_page'=>1 //display 1 pictures on the slider
 	);
 
 $the_query = new WP_Query($args);

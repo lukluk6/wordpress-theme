@@ -1007,6 +1007,12 @@ body{
 	max-width: 100%;
 }
 
+/*slider*/
+.slider img {
+    width: 960px;
+    height: 280px;
+}
+
 /*content*/
 
 #content {
@@ -1021,13 +1027,13 @@ body{
 .post {
     background-color: white;
     border-style: none none solid;
-    border-color:#000999;
+    border-color:#ADD8E6;
     }
 
 /*widget*/
 #secondary {
 	float: right;
-    width: 20%;
+    width: 30%;
     padding: 2%;
     margin: 1%;
     background-color: rgba(250, 254, 255, 0.5);
@@ -1035,6 +1041,7 @@ body{
 
 .widget{
 	background-color: #ADD8E6;
+	padding:5%;
 
 }
 
@@ -1056,6 +1063,11 @@ body{
     padding: 0px;
     text-align: center;
     font-family: Calibri;
+}
+
+/*searchbar*/
+input[type="search"] {
+    width: 95%;
 }
 
 
