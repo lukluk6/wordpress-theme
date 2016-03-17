@@ -286,7 +286,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Roboto Condensed';
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -657,24 +657,11 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 @media screen and (min-width: 37.5em) {
 
-	#page.site {
-	background-color: #f6fff5;
-	}
+	
 	.menu-toggle {
 		display: none;
 	}
-	.menu-toggle::before {
-	    content: "≡";
-	    font-family:'Roboto Condensed', sans-serif;
-	    padding-right: 3px;
-	    size: 14px;
-	}
-	*, *::before, *::after {
-	    box-sizing: inherit;
-	}
-	*, *::before, *::after {
-	    box-sizing: inherit;
-	}
+	
 	.menu-toggle {
 	    background-color: transparent;
 	    border-color: transparent;
@@ -697,6 +684,8 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	
 	#main.site-main {
 		width: auto;
+		font-family: 'Roboto Condensed';
+	}
 }
 
 .site-main .comment-navigation,
@@ -722,7 +711,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 	
 	
-}
+
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -745,6 +734,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	text-align: right;
 	width: 50%;
 }
+
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1106,7 +1096,7 @@ body{
     }
 
 .widget{
-	background-color: #ADD8E6;
+	background-color: #9bc2cf;
 	padding:5%;
     border-top-left-radius: 0px;
     border-top-right-radius: 15px;
@@ -1132,7 +1122,6 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    font-family: Calibri;
 }
 
 /*searchbar*/
