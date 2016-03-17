@@ -1048,6 +1048,11 @@ p.site-title{
 >>>>>>> origin/master
 }
 
+#primary-menu {
+    margin: 0 auto;
+    text-align: center;
+    }
+
 #site-navigation {
     background-color: transparent;
     font-family: 'Cabin Sketch';
@@ -1072,7 +1077,6 @@ body{
 
 .menu-main-container {
     float: center;
-    padding-left: 13%;
 }
 
 .menu-toggle {
