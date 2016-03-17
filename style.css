@@ -305,6 +305,7 @@ p {
 	margin-bottom: 1.5em;
 }
 
+
 dfn,
 cite,
 em,
@@ -1017,7 +1018,7 @@ object {
 }
 
 h1.site-title a{
-	color:black;
+	color: #528b8b;
 	font-size: 2em;
 	}
 
