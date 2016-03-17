@@ -990,7 +990,7 @@ p.site-description {
 }
 
 #site-navigation {
-    background-color: white;
+    background-color: transparent;
     font-family: 'Cabin Sketch';
     }
 
@@ -1008,7 +1008,7 @@ body{
 #content {
     max-width: 100%;
     width: 90%;
-    background: white;
+    background: rgba(250, 254, 255, 0.5);
     margin: 1%;
     padding: 2%;
     border-style: none;
