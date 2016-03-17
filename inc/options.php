@@ -106,7 +106,7 @@ function cd_options_page_section_callback(){
 	function my_theme_options_page(){ 
 		?>
 		<form action="options.php" method="post">
-			<h2>My Awesome Options Page</h2>
+			<h2>Customize Yourself</h2>
 			<?php
 			settings_fields( 'theme_options' );
 			do_settings_sections( 'theme_options' );
