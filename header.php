@@ -16,8 +16,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <?php wp_head(); ?>
+
+
+
+
+
+
+
+
+<!--trying out the silder-->
+<link rel="stylesheet" herf="<?=bloginfo('template_url');?> /owl.carousel/owl.carousel.css"/>
+<script src="<?=bloginfo('template_url');?> /owl.carousel/owl.carousel.min.js" type = "text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body <?php body_class(); ?>>
