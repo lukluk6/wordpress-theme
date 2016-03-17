@@ -44,7 +44,7 @@ if($the_query->have_posts()):
  <script >
  $(document).ready(function(){
  	$(".home_slider").owlCarousel({
- 		navigation:ture,
+ 		navigation:false,
  		slidespeed:300,
  		paginationSpeed:400,
  		singleItem:true
