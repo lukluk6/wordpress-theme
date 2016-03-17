@@ -1004,10 +1004,10 @@ body{
 #content {
     max-width: 960px;
     width: 90%;
-    background: #fff055;
+    background: white;
     margin: 1%;
     padding: 2%;
-    border-style: dotted;
+    border-style: none;
 }
 
 .post {
@@ -1019,7 +1019,7 @@ body{
     width: 35%;
     padding: 2%;
     margin: 1%;
-    background-color: #0ff999;
+    background-color: #ADD8E6;
     }
 
 .widget{
@@ -1052,7 +1052,6 @@ body{
     padding: 1%;
     }
 
-/*jshdjsgs*/
 
 
 
