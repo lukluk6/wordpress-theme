@@ -1099,7 +1099,9 @@ h3{
     float: center;
 }
 
-
+.menu-toggle {
+	padding-left: 0;
+	}
 
 #content {
     max-width: 960px;
