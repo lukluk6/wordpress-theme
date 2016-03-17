@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-
+<h2>Welcome to Yoyo's Yoga and Fitness!</h2>
 <!--here for slider-->
 
 <?php
