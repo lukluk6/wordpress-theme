@@ -23,7 +23,7 @@ $args = array(
    //display 1 pictures on the slider
 	);
 
-$the_query = new WP_Query($args);//'showposts=1'.
+$the_query = new WP_Query($args);//'showposts=1'. is not working
 
 if($the_query->have_posts()):
 ?>
@@ -41,20 +41,6 @@ if($the_query->have_posts()):
 		 //it adds the thumbnail of the post to the silder area
 		?>
 	</div>
- 
-
- <script >
- $(document).ready(function(){
- 	$(".home_slider").owlCarousel({
- 		navigation:false,
- 		slidespeed:300,
- 		paginationSpeed:400,
- 		singleItem:true
- 	});
- });
-
- </script>
-
 
 <?php
 	endwhile;
