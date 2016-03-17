@@ -1064,7 +1064,11 @@ body{
 }
 
 h2{
-	color: #8BBFD1;
+	color:#528B8B;
+}
+
+h3{
+	color:#8BBFD1;
 }
 
 .entry-content {
@@ -1105,6 +1109,7 @@ h2{
     background-color: white;
     border-style: none none solid;
     border-color:#ADD8E6;
+    background: transparent;
     }
 
 /*widget*/
