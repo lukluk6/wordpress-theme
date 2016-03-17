@@ -1012,6 +1012,8 @@ body{
 
 .post {
     background-color: white;
+    border-style: none none solid;
+    border-color:#000999;
     }
 
 /*widget*/
