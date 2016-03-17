@@ -50,7 +50,7 @@ if($the_query->have_posts()):
 endif;	
 ?>
 
-<h2>About us </h2>
+<h2>About Us </h2>
 
 	Yoyo’s Yoga and Fitness is a yoga studio based in Toronto, Canada. 
 	We are three girls who are passionate about practicing yoga and believe in living life in 
