@@ -66,6 +66,23 @@ register_setting( 'theme_options', 'cd_options_settings' );
 		<?php
 	}
 	
+	//Upload logo
+	
+	add_settings_field(
+		'cd_logo_display',
+		'Logo Display',
+		'logo_display',
+		'theme_options',
+		'cd_options_page_section'
+	);
+	
+	function logo_display() {
+		$options = get_option( 'cd_logo_display' );
+		?>
+		<input type="file" name="cd_logo_display" id="cd_logo_display" value="<?php echo get_option('cd_logo_display');?>" />
+		<?php
+	}
+	
 	
 	
 
