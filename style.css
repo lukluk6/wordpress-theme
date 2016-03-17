@@ -51,6 +51,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*FONTS*/
 @import url(https://fonts.googleapis.com/css?family=Handlee|Reenie+Beanie|Rochester);
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 
 html {
 	font-family: sans-serif;
@@ -77,7 +78,7 @@ summary {
 
 h1.site-title,
 p.site-description {
-	font-family: 'Reenie Beanie', cursive;
+	font-family: 'Amatic SC', cursive;
 }
 
 
