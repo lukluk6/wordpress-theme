@@ -442,7 +442,6 @@ input[type="submit"] {
 	background-color: #5F9EA0;
 	border: none;
     color: white;
-    padding: 11px 135px;
     text-align: center;
     text-decoration: uppercase;
     display: inline-block;
@@ -1099,6 +1098,9 @@ h3{
     float: center;
 }
 
+.menu-toggle{
+	padding: 11px 135px;
+}
 
 #content {
     max-width: 960px;
