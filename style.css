@@ -1020,6 +1020,10 @@ body{
 }
 
 /*content*/
+#main{
+    padding: 2% 30% 2% 30%;
+}
+
 
 #content {
     max-width: 960px;

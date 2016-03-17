@@ -19,10 +19,11 @@ get_header(); ?>
 
 <?php
 $args = array(
-  'post_per_page'=>1 //display 1 pictures on the slider
+  'post_per_page'=>1
+   //display 1 pictures on the slider
 	);
 
-$the_query = new WP_Query($args);
+$the_query = new WP_Query('showposts=1'.$args);
 
 if($the_query->have_posts()):
 ?>
@@ -66,25 +67,6 @@ endif;
 
 
 
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -95,6 +77,8 @@ endif;
 	    </a>
 		<?php endif; ?>
 -->
+
+
 
 		<?php if (is_home()) ?> <!--making changes to display post on home page-->
 
@@ -131,6 +115,8 @@ endif;
  	else : ?>
  	<p> <?php _e( 'Sorry, there is no post matches this catergory.' ); ?></p>
  <?php endif; ?>
+
+
 
  <?php posts_nav_link('separator','Newer Post &raquo;','&laquo; Older Post'); //learned from https://codex.wordpress.org/Next_and_Previous_Links?>
 
