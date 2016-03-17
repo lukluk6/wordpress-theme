@@ -684,7 +684,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	}
 	
 	#main.site-main {
-		width: auto;
+		width: 60%;
 		font-family: 'Roboto Condensed';
 	}
 }
@@ -1112,19 +1112,26 @@ h3{
     background: transparent;
     }
 
+    article.post {
+    margin: 0 auto;
+    width: 130%;
+}
+
 /*widget*/
 #secondary {
-	float: right;
-	max-width: 240px;
-    width: 100%;
+	float: left;
+	max-width: 960px;
+    width: 80%;
     padding: 2%;
-    margin: 1%;
+    margin: 0 auto;
     background-color: rgba(250, 254, 255, 0.5);
+    display:inline-flex;
     }
 
 .widget{
 	background-color: #9bc2cf;
 	padding:5%;
+	margin:2%;
     border-top-left-radius: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0px;
@@ -1154,6 +1161,8 @@ h3{
 /*searchbar*/
 input[type="search"] {
     width: 95%;
+    margin: 0 auto;
+	margin-top: 20%;
 }
 
 
