@@ -49,9 +49,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 
 /*FONTS*/
-@import url(https://fonts.googleapis.com/css?family=Handlee|Reenie+Beanie|Rochester);
+@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie); /*header*/
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC); /* for Namasté */
 
 html {
 	font-family: sans-serif;
@@ -76,7 +76,11 @@ summary {
 	display: block;
 }
 
-h1.site-title,
+h1.site-title {
+	font-family: 'Reenie Beanie', cursive;
+}
+
+
 p.site-description {
 	font-family: 'Amatic SC', cursive;
 }
@@ -1052,7 +1056,7 @@ body{
 
 /*footer*/
 .site-info {
-    background: #ADD8E6;
+    background: rgba(0,0,999,0.3);
     max-width: 100%;
     width: 90%;
     margin: 1%;
