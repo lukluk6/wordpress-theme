@@ -948,6 +948,7 @@ object {
 
 .site-title {
 	text-align: center;
+	margin:0;
 }
 
 h1.site-title a{
@@ -964,6 +965,7 @@ p.site-description {
     color: blue;
     font-size: 3em;
     color:#3399FF;
+    margin:0;
 }
 
 .main-navigation a{
