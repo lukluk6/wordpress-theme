@@ -55,7 +55,7 @@ class YoyoWidget extends WP_Widget {
     // learned from http://www.makeuseof.com/tag/how-to-create-wordpress-widgets/
 
 				
-		query_posts('posts_per_page=1&orderby=rand&category_name=CAR1');
+		query_posts('posts_per_page=1&orderby=rand&category_name=DailyYoga');
 		if (have_posts()) : 
 			echo "";
 			while (have_posts()) : the_post(); 
