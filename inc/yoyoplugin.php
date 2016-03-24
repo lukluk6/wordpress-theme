@@ -44,7 +44,6 @@ class YoyoPlugin extends WP_Widget {
                                 
 }
 
-
 		function form( $instance ) {
 		if ( isset( $instance[ 'type' ] ) ) {
 			$type = $instance[ 'type' ];
