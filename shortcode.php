@@ -1,5 +1,13 @@
 <?php
 
+//Link external stylesheet
+ function short_code_enqueue_scripts(){
+ 	wp_enqueue_style('yoyo_shortcode', plugins_url('Shortcode/CSS/style.css'));
+ 	}
+ 	
+ 	add_action( 'wp_enqueue_scripts', 'short_code_enqueue_scripts');
+ 	
+
 //Button - found the code from http://www.wpexplorer.com/wordpress-button-shortcode/
  	function yoyobutton ( $atts){
  		extract( shortcode_atts(
