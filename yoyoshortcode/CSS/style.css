@@ -1,0 +1,79 @@
+/* Stylesheet for shortcodes
+*/
+
+/* Text colors */
+.section
+{
+	color: #7a8b8b;
+}
+
+.blue-text
+{
+	color:#2981e4;
+}
+.red-text
+{
+	color:#fb4a45;
+}
+.orange-text
+{
+	color:#e37222;
+}
+.yellow-text
+{
+	color:#f2f40c;
+}
+.green-text
+{
+	color:#65A343;
+}
+
+/*  Button colors using CSS3  */
+.yoyo-button
+{
+	background:#65A343; 
+	text-shadow:1px 1px 1px #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: 1px;
+	vertical-align: middle;
+}
+
+.yoyo-button span 
+{
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font: bold 12px 'Verdana', 'Arial', sans-serif;
+	padding: 6px 12px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.blue-button
+{
+	background:#2981e4;
+}
+
+.red-button
+{
+	background:#fb4a45;
+}
+
+.orange-button
+{
+	background:#e37222;
+}
+
+.yellow-button
+{
+	background:#f2f40c;
+}
