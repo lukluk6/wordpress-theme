@@ -184,9 +184,21 @@ function modify_read_more_link() {
 //slider area picture size
 add_image_size ('home-slider', 960,280, true);
 
+<<<<<<< HEAD
 // Call the file that makes our new widget
 require get_stylesheet_directory() . '/inc/thewidget.php';
 
 require get_stylesheet_directory() . '/inc/Yoyo.php';
 
 include ('shortcode.php');
+=======
+
+// Call the file that makes our new widget
+require get_stylesheet_directory() . '/inc/thewidget.php';
+
+
+require get_stylesheet_directory() . '/inc/Yoyo.php';
+
+
+require get_stylesheet_directory() .'/yoyoshortcode/shortcode.php';
+>>>>>>> origin/master

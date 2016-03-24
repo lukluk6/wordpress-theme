@@ -1,11 +1,11 @@
 <?php
 
 //Link external stylesheet
- function short_code_enqueue_scripts(){
- 	wp_enqueue_style('yoyo_shortcode', plugins_url('Shortcode/CSS/style.css'));
+ function yoyoshort_code_enqueue_scripts(){
+ 	wp_enqueue_style('yoyo_shortcode', plugins_url('yoyoshortcode/CSS/style.css'));
  	}
  	
- 	add_action( 'wp_enqueue_scripts', 'short_code_enqueue_scripts');
+ 	add_action( 'wp_enqueue_scripts', 'yoyoshort_code_enqueue_scripts');
  	
 
 //Button - found the code from http://www.wpexplorer.com/wordpress-button-shortcode/
@@ -24,7 +24,7 @@
  	add_shortcode( 'yoyobutton', 'yoyobutton');
  	
  //Change text color
- 	function text_color ($atts, $content = null){
+ 	function yoyotext_color ($atts, $content = null){
  		extract( shortcode_atts(
  			array('color' => ''
  				), 
