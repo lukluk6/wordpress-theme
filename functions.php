@@ -192,4 +192,4 @@ require get_stylesheet_directory() . '/inc/thewidget.php';
 require get_stylesheet_directory() . '/inc/Yoyo.php';
 
 
-include ('/shortcode/shortcode.php');
+include ('/yoyoshortcode/shortcode.php');

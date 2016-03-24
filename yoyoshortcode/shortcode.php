@@ -2,7 +2,7 @@
 
 //Link external stylesheet
  function yoyoshort_code_enqueue_scripts(){
- 	wp_enqueue_style('yoyo_shortcode', plugins_url('shortcode/CSS/style.css'));
+ 	wp_enqueue_style('yoyo_shortcode', plugins_url('yoyoshortcode/CSS/style.css'));
  	}
  	
  	add_action( 'wp_enqueue_scripts', 'yoyoshort_code_enqueue_scripts');
