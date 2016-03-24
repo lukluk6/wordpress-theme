@@ -185,7 +185,7 @@ function modify_read_more_link() {
 add_image_size ('home-slider', 960,280, true);
 
 //calling tthe yoyoplugin widgets
-require get_stylesheet_directory() . '/inc/yoyoplugin.php';
+//require get_stylesheet_directory() . '/inc/yoyoplugin.php';
 
 // Call the file that makes our new widget
 require get_stylesheet_directory() . '/inc/thewidget.php';
