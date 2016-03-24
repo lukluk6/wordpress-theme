@@ -30,7 +30,7 @@ $args = array(
    //display 1 pictures on the slider
 	);
 
-$the_query = new WP_Query($args);//'showposts=1'. is not working
+$the_query = new WP_Query($args);// 'showposts=1'.is not working
 
 if($the_query->have_posts()): //check if there is post
 ?>
