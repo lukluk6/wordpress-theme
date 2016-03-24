@@ -3,7 +3,7 @@ Thank you for using Yoyo Plugin!
 
 Instruction: 
 
-First thing you need to do is move this folder in to your wordpress theme folder: wp-content—>theme—>YOUR_THEME—>inc(if you do not have a inc folder please feel free to create one!)
+First thing you need to do is move this folder/php file into your wordpress theme folder: wp-content—>theme—>YOUR_THEME—>inc(if you do not have a inc folder please feel free to create one!)
 
 Then add this piece of code inside your function.php:
 			require get_stylesheet_directory() .'/inc/Yoyo.php’;
