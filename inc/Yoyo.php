@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Yoyo Plugin
-Plugin URI:
-Description:
+Plugin URI:http://phoenix.sheridanc.on.ca/~ccit3407/
+Description:The widget display yoga of the day
 Verion:1.0
-Author:
-Author URI:
+Author:Joanna, Jing, Shirlet
+Author URI:http://phoenix.sheridanc.on.ca/~ccit3407/
 */
 
 
@@ -71,7 +71,7 @@ class YoyoWidget extends WP_Widget {
     echo $after_widget;
   }
 
-  //change te widget title
+  //change the widget title
   public function form( $instance ) {
 		$instance = wp_parse_args( (array) $instance, array(
 	'title' => '') );
