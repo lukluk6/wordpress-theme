@@ -1,6 +1,20 @@
 ====Read Me=====
 Thank you for using Yoyo Plugin!
 
+Instruction: 
+
+First thing you need to do is move this folder in to your wordpress theme folder: wp-content—>theme—>YOUR_THEME—>inc(if you do not have a inc folder please feel free to create one!)
+
+Then add this piece of code inside your function.php:
+			require get_stylesheet_directory() .'/inc/Yoyo.php’;
+
+Now you can go into your Wordpress site, go to Dashboard—>Appearance—>widget, now you should see it there. Go ahead and add it to your widget area!
+
+It is that easy!
+
+
+Description:
+
 This plugin allows you to display radom post from all or particular categories in the widget.
 When you see '//change the information that dispaly in widget sitting', you can change the 
 text and information that get to display in the appearance--> widget. 
@@ -18,3 +32,4 @@ the post by selecting numbers. Also, change the title to whatever they want by d
 the widget setting. 
 
 Enjoy using Yoyo Plugin! Thank you!
+
