@@ -24,7 +24,7 @@
  	add_shortcode( 'yoyobutton', 'yoyobutton');
  	
  //Change text color
- 	function text_color ($atts, $content = null){
+ 	function yoyotext_color ($atts, $content = null){
  		extract( shortcode_atts(
  			array('color' => ''
  				), 
