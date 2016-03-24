@@ -186,11 +186,6 @@ add_image_size ('home-slider', 960,280, true);
 
 
 
-
-// Call the file that makes our new widget
-require get_stylesheet_directory() . '/inc/thewidget.php';
-
-
 require get_stylesheet_directory() . '/inc/Yoyo.php';
 
 
