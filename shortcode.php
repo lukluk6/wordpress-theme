@@ -22,4 +22,15 @@
  		<span>'.do_shortcode($title).'</span></a>';
  		}
  	add_shortcode( 'yoyobutton', 'yoyobutton');
+ 	
+ //Change text color
+ 	function text_color ($atts, $content = null){
+ 		extract( shortcode_atts(
+ 			array('color' => ''
+ 				), 
+ 			$atts )
+ 			);
+ 			return '<div class="section '. $color .'-text">' . $content . '</div>';
+ 		}
+ 		add_shortcode( 'yoyotext_color', 'yoyotext_color');
 ?>
