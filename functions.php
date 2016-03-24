@@ -7,6 +7,7 @@
  * @package wordpress-theme
  */
 
+
 if ( ! function_exists( 'wordpress_theme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
