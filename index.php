@@ -16,7 +16,7 @@ get_header(); ?>
 
 
 <!--here is the welcoming phrase only on the home page-->
-<h2>Welcome to Yoyo's Yoga and Fitness!</h2>
+<h2>Welcome to Yoyo's Yoga and Fitness!</h2><h4>Check out the Yoga of the Day in the Footer Widget!</h4>
 
 
 
