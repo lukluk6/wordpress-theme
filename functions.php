@@ -186,8 +186,18 @@ add_image_size ('home-slider', 960,280, true);
 
 
 
-require get_stylesheet_directory() . '/inc/Yoyo.php';
+require get_stylesheet_directory() .'/inc/Yoyo.php';
 
 
 require get_template_directory() .'/yoyoshortcode/shortcode.php';
+
+//echo plugin_dir_path('Yoyo.php');
+
+
+
+
+
+
+
+
 

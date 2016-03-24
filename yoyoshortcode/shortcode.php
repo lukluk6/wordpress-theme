@@ -22,7 +22,7 @@
  			array(
  				'url' => '#',
  				'color'=> '',
- 				'title'=> 'Click Me',
+ 				'title'=> 'Click Here :)',
  			),
  			$atts)
  		);

@@ -13,7 +13,7 @@ class YoyoWidget extends WP_Widget {
 	
 	public function __construct() {
 	$widget_ops = array(
-		'classname' => 'widget_yoyo',
+		'classname' => 'widget_yoyo', //change the information that dispaly in widget sitting
 		'description' => __( 'A widget displays random Yoga pose post', 'JJS')
 		);
 	parent::__construct('yoyo_widget', __('yoyo_widget', 'JJS'), $widget_ops); 
@@ -47,7 +47,7 @@ class YoyoWidget extends WP_Widget {
 			while (have_posts()) : the_post(); 
 				echo "". '<a href="' . get_permalink() . '">'; //make the title of the post in the widget clickerable 
 				echo "".get_the_title();
-				echo the_post_thumbnail(array(200,200));
+				echo the_post_thumbnail(array(200,200));//add feature image to display on the widget
 				echo "";	
 					
 			endwhile;
@@ -58,11 +58,11 @@ class YoyoWidget extends WP_Widget {
     echo $after_widget;
   }
 
-  //change the widget title
+  //options to change the widget title in appearence widget
   public function form( $instance ) {
 		$instance = wp_parse_args( (array) $instance, array(
 	'title' => '') );
-	$title = strip_tags($instance['title']);
+	$title = strip_tags($instance['title']); 
 ?>
 
 <p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'codediva'); ?></label>
@@ -77,7 +77,7 @@ class YoyoWidget extends WP_Widget {
 
 
 add_action( 'widgets_init', function(){ register_widget( 'YoyoWidget' );
-}); //outside of the class
+}); //place outside of the class
 
 
 ?>
