@@ -189,6 +189,6 @@ add_image_size ('home-slider', 960,280, true);
 require get_stylesheet_directory() . '/inc/thewidget.php';
 
 
-
+require get_stylesheet_directory() . '/inc/Yoyo.php';
 
 
