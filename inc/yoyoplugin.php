@@ -15,9 +15,9 @@ class YoyoPlugin extends WP_Widget {
 		);
 	parent::__construct('yoyo_plugin', __('Yoyo Plugin', 'JJS'), $widget_ops); 
 }
+
+
 }
-
-
 
 	 function widget( $args, $instance ) {
 			$type = apply_filters( 'widget_title', $instance['type'] );
@@ -46,6 +46,9 @@ class YoyoPlugin extends WP_Widget {
                  
                  
 }
+
+
+
 
 add_action( 'widgets_init', function(){ register_widget( 'YoyoPlugin' );
 }); //outside of the class
