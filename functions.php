@@ -192,6 +192,7 @@ require get_stylesheet_directory() .'/inc/Yoyo.php';
 require get_template_directory() .'/yoyoshortcode/shortcode.php';
 
 //echo plugin_dir_path('Yoyo.php');
+//call from the plugin folder;
 
 
 
