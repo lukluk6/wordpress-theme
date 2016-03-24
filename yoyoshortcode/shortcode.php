@@ -1,4 +1,12 @@
 <?php
+/*
+* Plugin Name: Yoyo's Shortcode
+* Plugin URI: http://phoenix.sheridanc.on.ca/~ccit3407/
+* Description: Shortcode to provide link to more recipes 
+* Author: Joanne Chui, Jing Lu, Shirlet Chan
+* Author URI: http://phoenix.sheridanc.on.ca/~ccit3407/
+* Version: 1.0
+*/
 
 //Link external stylesheet
  function yoyoshort_code_enqueue_scripts(){
