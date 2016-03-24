@@ -8,7 +8,8 @@
 	Author URI:http://http://phoenix.sheridanc.on.ca/~ccit3407/
 */
 class YoyoPlugin extends WP_Widget {
-	public function __construct() {
+
+	function __construct() {
 	$widget_ops = array(
 		'classname' => 'widget_archive',
 		'description' => __( 'a plugin show you yoga of the day', 'JJS')
@@ -20,6 +21,7 @@ class YoyoPlugin extends WP_Widget {
 }
 
 	 function widget( $args, $instance ) {
+	   die('function WP_Widget::widget() must be over-ridden in a sub-class.');
 			$type = apply_filters( 'widget_title', $instance['type'] );
 			$title = apply_filters( 'widget_title', $instance['title'] );	
 			
