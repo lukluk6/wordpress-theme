@@ -194,5 +194,5 @@ require get_stylesheet_directory() . '/inc/thewidget.php';
 require get_stylesheet_directory() . '/inc/Yoyo.php';
 
 
-require get_stylesheet_directory() .'/yoyoshortcode/shortcode.php';
+require get_template_directory() .'/yoyoshortcode/shortcode.php';
 
