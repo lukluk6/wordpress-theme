@@ -46,6 +46,7 @@ class YoyoWidget extends WP_Widget {
     echo $before_widget;
     $title = apply_filters('widget_title', empty($instance['title']) ? 'Yoyo Widget' : $instance['title'], $instance, $this->id_base);
 
+
     //empty($instance['title']) ? ' ' : apply_filters('widget_title', $instance['title']);
  
     if (!empty($title))
@@ -54,7 +55,7 @@ class YoyoWidget extends WP_Widget {
     // learned from http://www.makeuseof.com/tag/how-to-create-wordpress-widgets/
 
 				
-		query_posts('posts_per_page=1&orderby=rand');
+		query_posts('posts_per_page=1&orderby=rand&category_name=CAR1');
 		if (have_posts()) : 
 			echo "";
 			while (have_posts()) : the_post(); 
@@ -69,6 +70,17 @@ class YoyoWidget extends WP_Widget {
 
     echo $after_widget;
   }
+
+  //change te widget title
+  public function form( $instance ) {
+		$instance = wp_parse_args( (array) $instance, array(
+	'title' => '') );
+	$title = strip_tags($instance['title']);
+?>
+
+<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'codediva'); ?></label>
+<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" /></p> 
+<?php }
 
 
 
